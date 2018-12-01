@@ -11,6 +11,11 @@
 
 🍃 Lightweight GraphQL client
 
+Similar projects:
+
+- <https://github.com/prisma/graphql-request>
+- <https://github.com/octokit/graphql.js>
+
 ## Quick start
 
 Install:
