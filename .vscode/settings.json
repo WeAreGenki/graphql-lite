@@ -1,0 +1,15 @@
+{
+  "editor.formatOnSave": true,
+  // recommended dictionary: https://github.com/WeAreGenki/dictionary
+  "spellright.language": ["en_GB"],
+  "spellright.documentTypes": [
+    "javascript",
+    "json",
+    "jsonc",
+    "markdown",
+    "plaintext",
+    "typescript"
+  ],
+  "spellright.spellContext": "body code comments strings",
+  "tslint.autoFixOnSave": true
+}

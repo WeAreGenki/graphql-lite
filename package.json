@@ -1,0 +1,69 @@
+{
+  "name": "graphql-lite",
+  "version": "0.0.0",
+  "description": "🍃 Lightweight GraphQL client",
+  "repository": "https://github.com/WeAreGenki/graphql-lite",
+  "bugs": "https://github.com/WeAreGenki/graphql-lite/issues",
+  "homepage": "https://wearegenki.github.io/graphql-lite",
+  "author": "Max Milton <max@wearegenki.com>",
+  "license": "Apache-2.0",
+  "keywords": [
+    "graphql-client",
+    "graphql",
+    "typescript",
+    "wearegenki"
+  ],
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "rollup --config --watch",
+    "build": "rollup --config",
+    "lint": "tslint --project tsconfig.json",
+    "pretest": "yarn lint",
+    "test": "JEST_CIRCUS=1 jest --notify --watch",
+    "test-ci": "JEST_CIRCUS=1 jest --coverage --runInBand --ci"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@minna-ui/jest-config": "0.18.0",
+    "@minna-ui/ts-config": "0.18.0",
+    "@minna-ui/tslint-config": "0.18.0",
+    "@wearegenki/renovate-config": "1.0.0",
+    "codecov": "3.1.0",
+    "jest": "23.6.0",
+    "prettier": "1.15.3",
+    "rollup": "0.67.3",
+    "rollup-plugin-typescript": "1.0.0",
+    "ts-jest": "23.10.5",
+    "tslib": "1.9.3",
+    "tslint": "5.11.0",
+    "typescript": "3.2.1"
+  },
+  "jest": {
+    "preset": "@minna-ui/jest-config",
+    "transform": {
+      "^.+\\.ts$": "ts-jest"
+    },
+    "testRegex": "(/__tests__/.*|\\.(test|spec))\\.ts$",
+    "globals": {
+      "ts-jest": {
+        "tsConfig": "tsconfig.json"
+      }
+    },
+    "collectCoverageFrom": [
+      "src/**/*.ts"
+    ]
+  },
+  "prettier": {
+    "endOfLine": "lf",
+    "singleQuote": true,
+    "trailingComma": "all"
+  },
+  "renovate": {
+    "extends": [
+      "@wearegenki"
+    ]
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
