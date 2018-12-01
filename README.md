@@ -7,6 +7,8 @@
 
 # GraphQL Lite Client
 
+**NOTE: This is a work in progress and not yet ready for real use.**
+
 🍃 Lightweight GraphQL client
 
 ## Quick start
