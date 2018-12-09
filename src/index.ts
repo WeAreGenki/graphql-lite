@@ -1,6 +1,3 @@
-// TODO: Remove this placeholder code
-
-import packageJson from '../package.json';
-
-/* tslint:disable-next-line no-console */
-console.log('Version', packageJson.version);
+export { default as parse } from './parse';
+export { default as request } from './request';
+export { default as graphql } from './rollup-plugin';

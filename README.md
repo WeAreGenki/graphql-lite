@@ -9,32 +9,49 @@
 
 **NOTE: This is a work in progress and not yet ready for real use.**
 
-🍃 Lightweight GraphQL client
+🍃 Lightweight GraphQL client which combines Rollup build-time parsing, transforming, and tree-shaking of queries, and run-time client-side network requests. The goal is to have the most lightweight and performant GraphQL client run-time.
 
 Similar projects:
 
 - <https://github.com/prisma/graphql-request>
 - <https://github.com/octokit/graphql.js>
+- <https://github.com/apollographql/graphql-tag>
 
 ## Quick start
 
 Install:
 
 ```sh
-yarn add graphql-lite
+yarn add graphql-lite graphql
+```
+
+Setup in `rollup.config.js`:
+
+```js
+import { graphql } from 'graphql-lite';
+
+export default {
+  plugins: [graphql()],
+};
 ```
 
 Use:
 
 ```js
-import graphqlLite from 'graphql-lite';
+import { parse, request } from 'graphql-lite';
 
 // TODO: Add usage example
 ```
 
 ## Browser compatibility
 
-TODO: Add note about this package using native `fetch` and how to add a polyfill for old browser compatibility.
+TODO: Add note about this package using native `fetch` and how to add a polyfill for old browser and node compatibility.
+
+```sh
+yarn add isomorphic-unfetch
+```
+
+TODO: Add note that is very old browser support is required, you need to also polyfill `Promise`.
 
 ## Changelog
 

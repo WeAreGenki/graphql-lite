@@ -22,6 +22,9 @@
     "test": "JEST_CIRCUS=1 jest --notify --watch",
     "test-ci": "JEST_CIRCUS=1 jest --coverage --runInBand --ci"
   },
+  "peerDependencies": {
+    "graphql": "^14.0.0"
+  },
   "dependencies": {},
   "devDependencies": {
     "@minna-ui/jest-config": "0.18.0",
