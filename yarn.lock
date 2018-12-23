@@ -197,10 +197,10 @@
   resolved "https://registry.yarnpkg.com/@minna-ui/ts-config/-/ts-config-0.18.0.tgz#eb028d9ff608676046395579304f2261ed6b99e6"
   integrity sha512-iUQYQQ02058b3Lss77in70D0YumEoFIYe227SZH5Mgb2xnsMDVpowuFvoNdDwW/ai2+4VKQ3yCHkwiP5RCymFw==
 
-"@minna-ui/tslint-config@0.18.1":
-  version "0.18.1"
-  resolved "https://registry.yarnpkg.com/@minna-ui/tslint-config/-/tslint-config-0.18.1.tgz#7429740bd53b36c3881c7aada51ce9d2500c824e"
-  integrity sha512-VzbGjJgwjRczGO/w4BdVBRCxMSUDFN0N0nDPQe4VMvncW6lLYIqV59cPgUbJGxkEqm5GJqXzGHMK9ng9Cn+eTw==
+"@minna-ui/tslint-config@0.19.0":
+  version "0.19.0"
+  resolved "https://registry.yarnpkg.com/@minna-ui/tslint-config/-/tslint-config-0.19.0.tgz#309a080da0ce27074bcfab4847e6847493347e4a"
+  integrity sha512-LcKRWhThBVrRV/9J3jfD/mBb9EBTfGGtnCJGX+ASjBZ+ow3mufxyIkMcs4dLYJJI/cNERf7BiL0Em6GtfihaAA==
   dependencies:
     tslint-config-airbnb "5.11.1"
     tslint-config-prettier "1.17.0"
