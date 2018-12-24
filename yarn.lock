@@ -192,10 +192,10 @@
     babel-jest "^23.6.0"
     jest-circus "^23.6.0"
 
-"@minna-ui/ts-config@0.18.0":
-  version "0.18.0"
-  resolved "https://registry.yarnpkg.com/@minna-ui/ts-config/-/ts-config-0.18.0.tgz#eb028d9ff608676046395579304f2261ed6b99e6"
-  integrity sha512-iUQYQQ02058b3Lss77in70D0YumEoFIYe227SZH5Mgb2xnsMDVpowuFvoNdDwW/ai2+4VKQ3yCHkwiP5RCymFw==
+"@minna-ui/ts-config@0.19.0":
+  version "0.19.0"
+  resolved "https://registry.yarnpkg.com/@minna-ui/ts-config/-/ts-config-0.19.0.tgz#0408be36d1f833f1761d4fe20011a82e708f6191"
+  integrity sha512-zOuI0nssPNE9Cb6P4pyctRFqUUp8m4RknV1gFLxBIkezv7zv2AhvwcOKdhjKhwW7WReCOq9KihpVfw7ZbJNfWQ==
 
 "@minna-ui/tslint-config@0.19.0":
   version "0.19.0"
