@@ -273,10 +273,10 @@
     identity-obj-proxy "^3.0.0"
     jest-circus "^24.1.0"
 
-"@minna-ui/ts-config@0.19.0":
-  version "0.19.0"
-  resolved "https://registry.yarnpkg.com/@minna-ui/ts-config/-/ts-config-0.19.0.tgz#0408be36d1f833f1761d4fe20011a82e708f6191"
-  integrity sha512-zOuI0nssPNE9Cb6P4pyctRFqUUp8m4RknV1gFLxBIkezv7zv2AhvwcOKdhjKhwW7WReCOq9KihpVfw7ZbJNfWQ==
+"@minna-ui/ts-config@0.21.0":
+  version "0.21.0"
+  resolved "https://registry.yarnpkg.com/@minna-ui/ts-config/-/ts-config-0.21.0.tgz#c2dcf5a23acd40671be060c89a111b0c6c1d80ed"
+  integrity sha512-Luy7puizxcaYFM8xDiVnbHhvOJ1JFoZNMWbxRJSGkpt+n2l/SQ70VeNzM9P01AYUBJRioari7qHT3wB/nmfXEA==
 
 "@minna-ui/tslint-config@0.19.0":
   version "0.19.0"

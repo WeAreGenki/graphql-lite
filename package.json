@@ -28,7 +28,7 @@
   "dependencies": {},
   "devDependencies": {
     "@minna-ui/jest-config": "0.21.0",
-    "@minna-ui/ts-config": "0.19.0",
+    "@minna-ui/ts-config": "0.21.0",
     "@minna-ui/tslint-config": "0.19.0",
     "@wearegenki/renovate-config": "1.0.0",
     "codecov": "3.2.0",
