@@ -1,15 +1,13 @@
 {
   "editor.formatOnSave": true,
-  // recommended dictionary: https://github.com/WeAreGenki/dictionary
-  "spellright.language": ["en_GB"],
-  "spellright.documentTypes": [
-    "javascript",
-    "json",
-    "jsonc",
-    "markdown",
-    "plaintext",
-    "typescript"
+  "eslint.enable": true,
+  "eslint.validate": [
+    { "language": "html", "autoFix": true },
+    { "language": "javascript", "autoFix": true },
+    { "language": "markdown", "autoFix": true },
+    { "language": "typescript", "autoFix": true }
   ],
-  "spellright.spellContext": "body code comments strings",
-  "tslint.autoFixOnSave": true
+  "files.eol": "\n",
+  "javascript.implicitProjectConfig.checkJs": true,
+  "prettier.eslintIntegration": true
 }
