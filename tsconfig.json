@@ -5,9 +5,7 @@
   "compilerOptions": {
     "baseUrl": ".",
     "declaration": true,
-    "diagnostics": true,
-    "emitDecoratorMetadata": true,
-    "experimentalDecorators": true,
-    "importHelpers": true
+    "importHelpers": true,
+    "outDir": "lib"
   }
 }
