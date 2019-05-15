@@ -31,7 +31,7 @@
   "dependencies": {},
   "devDependencies": {
     "@minna-ui/eslint-config": "0.22.0-next.193",
-    "@minna-ui/jest-config": "0.22.0-next.193",
+    "@minna-ui/jest-config": "0.22.1",
     "@minna-ui/prettier-config": "0.22.1",
     "@minna-ui/remark-config": "0.22.1",
     "@minna-ui/ts-config": "0.22.1",
