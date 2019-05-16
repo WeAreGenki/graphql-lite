@@ -355,13 +355,13 @@
     eslint-plugin-security "^1.4.0"
     eslint-plugin-svelte3 "^1.1.0"
 
-"@minna-ui/jest-config@0.22.1":
-  version "0.22.1"
-  resolved "https://registry.yarnpkg.com/@minna-ui/jest-config/-/jest-config-0.22.1.tgz#c8fee306bdb3939196e0695d2ee7e3aa2218e891"
-  integrity sha512-lgVpjMUjLTzjCBV6wqlFQnhjH4kL7REXTvMLFJVcGFnFIDcc4cy3kh949FOJH6gvf/vMliefImWkDn86og5b1A==
+"@minna-ui/jest-config@0.22.2":
+  version "0.22.2"
+  resolved "https://registry.yarnpkg.com/@minna-ui/jest-config/-/jest-config-0.22.2.tgz#618a89e4b64914a4dd2f65d1faa8755f4736162d"
+  integrity sha512-cNwrSiLWlgpluQIoiYKFfOcRfmLr3lng0GhXZRNpChL6L8Hxk3yirnWq9Ay1BMJ9SCil5gtaZUcFrAZnZPoA1g==
   dependencies:
-    "@types/jest" "^24.0.12"
-    "@types/node" "^12.0.0"
+    "@types/jest" "^24.0.13"
+    "@types/node" "^12.0.2"
     identity-obj-proxy "^3.0.0"
     jest-circus "^24.8.0"
     sucrase "^3.0.0"
@@ -449,7 +449,7 @@
   resolved "https://registry.yarnpkg.com/@types/jest-diff/-/jest-diff-20.0.1.tgz#35cc15b9c4f30a18ef21852e255fdb02f6d59b89"
   integrity sha512-yALhelO3i0hqZwhjtcr6dYyaLoCHbAMshwtj6cGxTvHZAKXHsYGdff6E8EPw3xLKY0ELUTQ69Q1rQiJENnccMA==
 
-"@types/jest@^24.0.12":
+"@types/jest@^24.0.13":
   version "24.0.13"
   resolved "https://registry.yarnpkg.com/@types/jest/-/jest-24.0.13.tgz#10f50b64cb05fb02411fbba49e9042a3a11da3f9"
   integrity sha512-3m6RPnO35r7Dg+uMLj1+xfZaOgIHHHut61djNjzwExXN4/Pm9has9C6I1KMYSfz7mahDhWUOVg4HW/nZdv5Pww==
@@ -461,7 +461,7 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-10.12.11.tgz#715c476c99a5f6898a1ae61caf9825e43c03912e"
   integrity sha512-3iIOhNiPGTdcUNVCv9e5G7GotfvJJe2pc9w2UgDXlUwnxSZ3RgcUocIU+xYm+rTU54jIKih998QE4dMOyMN1NQ==
 
-"@types/node@^12.0.0", "@types/node@^12.0.2":
+"@types/node@^12.0.2":
   version "12.0.2"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-12.0.2.tgz#3452a24edf9fea138b48fad4a0a028a683da1e40"
   integrity sha512-5tabW/i+9mhrfEOUcLDu2xBPsHJ+X5Orqy9FKpale3SjDA17j5AEpYq5vfy3oAeAHGcvANRCO3NV3d2D6q3NiA==
