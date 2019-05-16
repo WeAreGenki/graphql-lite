@@ -339,21 +339,21 @@
     "@types/istanbul-reports" "^1.1.1"
     "@types/yargs" "^12.0.9"
 
-"@minna-ui/eslint-config@0.22.1":
-  version "0.22.1"
-  resolved "https://registry.yarnpkg.com/@minna-ui/eslint-config/-/eslint-config-0.22.1.tgz#662545c8906092a39bb89d497fb76eb54bc81e3a"
-  integrity sha512-tcm9ZLS08rzNcRdyhJBcpsWPzac0yFCmhn4X8aPJfsOHwmdm29AG+lNMRP6D2PAChoEJvM9c8QC4nVD+MCS7kw==
+"@minna-ui/eslint-config@0.22.2":
+  version "0.22.2"
+  resolved "https://registry.yarnpkg.com/@minna-ui/eslint-config/-/eslint-config-0.22.2.tgz#21a7df55e52e4534e7f17db1d195a59e95c7bfd4"
+  integrity sha512-uGn3ev08zOl09vzjgw+8QY9nRMTSLVlMVUgFZCuqnmSHWYdOC38/kvs9iP05yiBak8RqzHhGy/br5+SCranPNg==
   dependencies:
-    "@typescript-eslint/eslint-plugin" "^1.7.0"
-    "@typescript-eslint/parser" "^1.7.0"
+    "@typescript-eslint/eslint-plugin" "^1.9.0"
+    "@typescript-eslint/parser" "^1.9.0"
     eslint-config-airbnb-base "^13.1.0"
-    eslint-plugin-html "^5.0.3"
+    eslint-plugin-html "^5.0.5"
     eslint-plugin-import "^2.17.2"
     eslint-plugin-jest "^22.5.1"
-    eslint-plugin-jsdoc "^4.8.3"
+    eslint-plugin-jsdoc "^5.0.2"
     eslint-plugin-markdown "^1.0.0"
     eslint-plugin-security "^1.4.0"
-    eslint-plugin-svelte3 "^1.1.0"
+    eslint-plugin-svelte3 "^1.2.0"
 
 "@minna-ui/jest-config@0.22.2":
   version "0.22.2"
@@ -505,7 +505,7 @@
   resolved "https://registry.yarnpkg.com/@types/yargs/-/yargs-12.0.9.tgz#693e76a52f61a2f1e7fb48c0eef167b95ea4ffd0"
   integrity sha512-sCZy4SxP9rN2w30Hlmg5dtdRwgYQfYRiLo9usw8X9cxlf+H4FqM1xX7+sNH7NNKVdbXMJWqva7iyy+fxh/V7fA==
 
-"@typescript-eslint/eslint-plugin@^1.7.0":
+"@typescript-eslint/eslint-plugin@^1.9.0":
   version "1.9.0"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/eslint-plugin/-/eslint-plugin-1.9.0.tgz#29d73006811bf2563b88891ceeff1c5ea9c8d9c6"
   integrity sha512-FOgfBorxjlBGpDIw+0LaZIXRX6GEEUfzj8LXwaQIUCp+gDOvkI+1WgugJ7SmWiISqK9Vj5r8S7NDKO/LB+6X9A==
@@ -525,7 +525,7 @@
   dependencies:
     "@typescript-eslint/typescript-estree" "1.9.0"
 
-"@typescript-eslint/parser@1.9.0", "@typescript-eslint/parser@^1.7.0":
+"@typescript-eslint/parser@1.9.0", "@typescript-eslint/parser@^1.9.0":
   version "1.9.0"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/parser/-/parser-1.9.0.tgz#5796cbfcb9a3a5757aeb671c1ac88d7a94a95962"
   integrity sha512-CWgC1XrQ34H/+LwAU7vY5xteZDkNqeAkeidEpJnJgkKu0yqQ3ZhQ7S+dI6MX4vmmM1TKRbOrKuXc6W0fIHhdbA==
@@ -1494,10 +1494,10 @@ eslint-module-utils@^2.4.0:
     debug "^2.6.8"
     pkg-dir "^2.0.0"
 
-eslint-plugin-html@^5.0.3:
-  version "5.0.3"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-html/-/eslint-plugin-html-5.0.3.tgz#3db133995e49a73596f6a473c16a1b83634deffd"
-  integrity sha512-46ruAnp3jVQP/5Bi5eEIOooscjUTPFU3vxCxHe/OG6ORdM7Xv5c25/Nz9fAbHklzCpiXuIiH4/mV/XBkm7MINw==
+eslint-plugin-html@^5.0.5:
+  version "5.0.5"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-html/-/eslint-plugin-html-5.0.5.tgz#e2388f813f75b2287cde884811eab287de8e0f56"
+  integrity sha512-v/33i3OD0fuXcRXexVyXXBOe4mLBLBQoF1UO1Uy9D+XLq4MC8K45GcQKfqjC/FnHAHp3pYUjpHHktYNCtShGmg==
   dependencies:
     htmlparser2 "^3.10.0"
 
@@ -1523,10 +1523,10 @@ eslint-plugin-jest@^22.5.1:
   resolved "https://registry.yarnpkg.com/eslint-plugin-jest/-/eslint-plugin-jest-22.5.1.tgz#a31dfe9f9513c6af7c17ece4c65535a1370f060b"
   integrity sha512-c3WjZR/HBoi4GedJRwo2OGHa8Pzo1EbSVwQ2HFzJ+4t2OoYM7Alx646EH/aaxZ+9eGcPiq0FT0UGkRuFFx2FHg==
 
-eslint-plugin-jsdoc@^4.8.3:
-  version "4.8.4"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-jsdoc/-/eslint-plugin-jsdoc-4.8.4.tgz#31f413c8a31fe656881398d8920b381bfdfac618"
-  integrity sha512-VDP+BI2hWpKNNdsJDSPofSQ9q7jGLgWbDMI0LzOeEcfsTjSS7jQtHDUuVLQ5E+OV2MPyQPk/3lnVcHfStXk5yA==
+eslint-plugin-jsdoc@^5.0.2:
+  version "5.0.2"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-jsdoc/-/eslint-plugin-jsdoc-5.0.2.tgz#3387a116511ce188008670bbea598dec1de11549"
+  integrity sha512-ACSu4NEEG5KZK7liCZz9jm5f5hFHcCL29zsN0RTixIZe1kuZOVO3oVbvnpe6o/U/3h9dMLJ42Yhe6umBS6aO7A==
   dependencies:
     comment-parser "^0.5.4"
     jsdoctypeparser "3.1.0"
@@ -1548,10 +1548,10 @@ eslint-plugin-security@^1.4.0:
   dependencies:
     safe-regex "^1.1.0"
 
-eslint-plugin-svelte3@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-svelte3/-/eslint-plugin-svelte3-1.1.0.tgz#8ea6e0b2598be04e4cfcdb26b4601c49114e2cf4"
-  integrity sha512-KBZEQPXZrWGrR8uq4frTKJSXdAIWT0pOyHHoo14XcpP+O1g2QdeuewStPGNNcgXgiEqltWrJID4et+N69wuL9g==
+eslint-plugin-svelte3@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-svelte3/-/eslint-plugin-svelte3-1.2.0.tgz#e463fb673d278b11bb8f03dcacf970a3afe3a751"
+  integrity sha512-7tuYh8YdwE9PP96U9qNJUSVMaxxUS/HZEZtEDlNGSAe0g40xd12pJo6lrc5wGxOmXpR6adGy5DnkSSF1UXGDKg==
 
 eslint-restricted-globals@^0.1.1:
   version "0.1.1"
