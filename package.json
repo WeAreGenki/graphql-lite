@@ -30,7 +30,7 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "@minna-ui/eslint-config": "0.22.1",
+    "@minna-ui/eslint-config": "0.22.2",
     "@minna-ui/jest-config": "0.22.2",
     "@minna-ui/prettier-config": "0.22.1",
     "@minna-ui/remark-config": "0.22.1",
