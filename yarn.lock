@@ -356,10 +356,10 @@
     eslint-plugin-security "^1.4.0"
     eslint-plugin-svelte3 "^1.2.3"
 
-"@minna-ui/jest-config@0.22.2":
-  version "0.22.2"
-  resolved "https://registry.yarnpkg.com/@minna-ui/jest-config/-/jest-config-0.22.2.tgz#618a89e4b64914a4dd2f65d1faa8755f4736162d"
-  integrity sha512-cNwrSiLWlgpluQIoiYKFfOcRfmLr3lng0GhXZRNpChL6L8Hxk3yirnWq9Ay1BMJ9SCil5gtaZUcFrAZnZPoA1g==
+"@minna-ui/jest-config@0.23.0":
+  version "0.23.0"
+  resolved "https://registry.yarnpkg.com/@minna-ui/jest-config/-/jest-config-0.23.0.tgz#3d518336b85bc4aac045bb6609cfd6533b8539ec"
+  integrity sha512-gkohyyoF3zm6yf4a/Rn7MSQekdu3DPWVYTfClTcpb+vHwZ1tvetv8IbGNgYCHJo1S/Pli8Ny5MmORv8srcc9MA==
   dependencies:
     "@types/jest" "^24.0.13"
     "@types/node" "^12.0.2"
