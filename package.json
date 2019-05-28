@@ -32,7 +32,7 @@
   "devDependencies": {
     "@minna-ui/eslint-config": "0.24.0",
     "@minna-ui/jest-config": "0.23.0",
-    "@minna-ui/prettier-config": "0.23.0",
+    "@minna-ui/prettier-config": "0.24.0",
     "@minna-ui/remark-config": "0.24.0",
     "@minna-ui/ts-config": "0.24.0",
     "@wearegenki/renovate-config": "1.0.0",
