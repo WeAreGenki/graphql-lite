@@ -372,10 +372,10 @@
   resolved "https://registry.yarnpkg.com/@minna-ui/prettier-config/-/prettier-config-0.23.0.tgz#70a1dc2c2b830ab4971ed80ee98659a5957eae2a"
   integrity sha512-47Bhe8YtKGgFUeYAVVKZYMbZc7GOR8sRwyEIR7DEooYgg3XQFunUWTouZkXnklixaYrKnuyF5oJsj6bEZgiRtQ==
 
-"@minna-ui/remark-config@0.23.0":
-  version "0.23.0"
-  resolved "https://registry.yarnpkg.com/@minna-ui/remark-config/-/remark-config-0.23.0.tgz#2cd2bf7df0d2e7f2f583178e5294212459a7b364"
-  integrity sha512-uQhStobNSbiB2ZUFVtuwk/1cYxLhNxpr26oq/2lGkvehtiY+syqvbELSdvQmoPaoaIkdMEO7jWdrClcU1Zs/CA==
+"@minna-ui/remark-config@0.24.0":
+  version "0.24.0"
+  resolved "https://registry.yarnpkg.com/@minna-ui/remark-config/-/remark-config-0.24.0.tgz#85a898538f1362e40f5fb5a28b93118b33f7fcfe"
+  integrity sha512-9GLl/7LgQFkvQJ/KrBAkMC13I/2tCoxpi1LWORZ5awswjr/dvNgOq00/Mnikqzqj8qGA/g8RgeZEHk/HD7NSVA==
   dependencies:
     remark-lint "^6.0.4"
     remark-preset-lint-consistent "^2.0.2"
