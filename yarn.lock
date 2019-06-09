@@ -367,10 +367,10 @@
     jest-circus "^24.8.0"
     sucrase "^3.0.0"
 
-"@minna-ui/prettier-config@0.24.0":
-  version "0.24.0"
-  resolved "https://registry.yarnpkg.com/@minna-ui/prettier-config/-/prettier-config-0.24.0.tgz#30b0eb4065b2a97857cb752bb5937924a99e7b68"
-  integrity sha512-boDnjRW3iK82Ttt1Q9j91FEltkA1KbRqYlqVK+a6KbK4XSytfiPsS7rn6ZdT6wYAmkj8x4uCllGkwGwGCXh2fg==
+"@minna-ui/prettier-config@0.25.0":
+  version "0.25.0"
+  resolved "https://registry.yarnpkg.com/@minna-ui/prettier-config/-/prettier-config-0.25.0.tgz#3b5df75eb1304838299f19ffa75664eb7b2ccb3c"
+  integrity sha512-aVPTGx7RvOZj0lzkfjNXtWtJ6ep/vS7S6wmgyTpxzZvAC8BKs5xFUy4UjI2AbBzpDn3Vq2J+4VoO9PKsk1HTTw==
 
 "@minna-ui/remark-config@0.24.0":
   version "0.24.0"
