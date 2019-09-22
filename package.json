@@ -13,17 +13,22 @@
     "typescript",
     "wearegenki"
   ],
-  "main": "lib/index.js",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
-    "dev": "rollup --config --watch",
-    "build": "rollup --config",
+    "dev": "build-lib --watch",
+    "build": "build-lib",
+    "prebuild": "rm -rf dist",
     "lint": "yarn lint:md && yarn lint:js && yarn lint:types",
     "lint:md": "remark --frail --quiet .",
     "lint:js": "eslint --ignore-path .gitignore --ext html,js,md,ts .",
     "lint:types": "tsc --noEmit",
-    "pretest": "yarn lint",
-    "test": "JEST_CIRCUS=1 jest --notify --watch",
-    "test-ci": "JEST_CIRCUS=1 jest --coverage --runInBand --ci"
+    "test": "jest --notify --watch",
+    "test-ci": "jest --coverage --runInBand --ci"
   },
   "peerDependencies": {
     "graphql": "^14.0.0"
