@@ -1,3 +1,3 @@
-export default function parse() {
+export function parse() {
   // TODO
 }

@@ -27,7 +27,7 @@ yarn add graphql-lite graphql
 
 Setup in `rollup.config.js`:
 
-```js
+```ts
 import { graphql } from 'graphql-lite';
 
 export default {
@@ -37,7 +37,7 @@ export default {
 
 Use:
 
-```js
+```ts
 import { parse, request } from 'graphql-lite';
 
 // TODO: Add usage example

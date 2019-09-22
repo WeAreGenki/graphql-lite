@@ -1,5 +1,5 @@
-export default function rollupPlugin() {
+export function rollupPlugin() {
   return {
-    name: '',
+    name: 'graphql-lite',
   };
 }
