@@ -39,26 +39,27 @@
     "remark-cli": "7.0.0",
     "typescript": "3.6.3"
   },
-  "babel": {
-    "presets": [
-      "@minna-ui/jest-config/lib/babel-preset"
-    ]
-  },
+  "prettier": "minna-tools-essential/prettier",
   "eslintConfig": {
     "root": true,
     "extends": [
-      "@minna-ui/eslint-config",
-      "@minna-ui/eslint-config/lib/typed",
-      "@minna-ui/eslint-config/lib/node-ts"
+      "./node_modules/minna-tools-essential/eslint.js"
     ]
   },
+  "eslintIgnore": [
+    "dist/**",
+    "test/coverage/**"
+  ],
   "remarkConfig": {
     "plugins": [
-      "@minna-ui/remark-config"
+      "minna-tools-essential/remark"
     ]
   },
   "jest": {
-    "preset": "@minna-ui/jest-config"
+    "preset": "minna-tools-essential",
+    "collectCoverageFrom": [
+      "src/**/*.ts"
+    ]
   },
   "renovate": {
     "extends": [
