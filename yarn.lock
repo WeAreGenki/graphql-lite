@@ -292,14 +292,15 @@
   resolved "https://registry.yarnpkg.com/@minna-ui/browserslist-config/-/browserslist-config-0.34.0.tgz#c465b150adda69aa5e764bc0d6c635529339b5ad"
   integrity sha512-Pw3bPI1Eo28BezlaIk6lW04JvJmtB42tcPWQ82ydV8j8t5964DrWMDVH/efzwG5BH5bMtYXViagyZBwvmfQw3g==
 
-"@minna-ui/build-lib@0.34.0":
-  version "0.34.0"
-  resolved "https://registry.yarnpkg.com/@minna-ui/build-lib/-/build-lib-0.34.0.tgz#1a76f516c6059521a331899a4dbd0fe9215bed53"
-  integrity sha512-h2qGQyqGDUBCtxjjjI25JZL7LuowibB9IDRsXANfBReKY7BNa+dsx51H9TnZNlOPdp0Aqt+FJGYtfQChnFQyiQ==
+"@minna-ui/build-lib@0.34.1":
+  version "0.34.1"
+  resolved "https://registry.yarnpkg.com/@minna-ui/build-lib/-/build-lib-0.34.1.tgz#fecef68c171c1d5e8554beed259bbfbbec72d531"
+  integrity sha512-yFKG3bxBjh/vXiRFwn2lwOFdW8xo7vRDxIg2TN9m9lX6BoFDVtjOv6A+11b3aGgbsPLDqezb1vkIPQU8rbnCKg==
   dependencies:
     mri "^1.1.4"
     rollup "^1.21.4"
     rollup-plugin-commonjs "^10.1.0"
+    rollup-plugin-json "^4.0.0"
     rollup-plugin-node-resolve "^5.2.0"
     rollup-plugin-typescript "^1.0.1"
     rollup-pluginutils "^2.8.2"
@@ -3424,10 +3425,10 @@ minizlib@^1.2.1:
   dependencies:
     minipass "^2.2.1"
 
-minna-tools-essential@0.34.0:
-  version "0.34.0"
-  resolved "https://registry.yarnpkg.com/minna-tools-essential/-/minna-tools-essential-0.34.0.tgz#4d14f857456238c2e21b37b7ccb178e23ba25f6f"
-  integrity sha512-XgFmN5oNuGy/fBcXhFpMdvOFnj5x2R9gLnNn0Hs+rMXfReBrrrc4u9F/PP4rdo6tfmufdGOaU0TXebV1vkKnBg==
+minna-tools-essential@0.34.1:
+  version "0.34.1"
+  resolved "https://registry.yarnpkg.com/minna-tools-essential/-/minna-tools-essential-0.34.1.tgz#591ec10fcaaed032cb552193534236332b4a66e6"
+  integrity sha512-raZ3L908KK7aC+/8qWNWwk6gIrZofUnFvaq/P9CxFMZM0P7Rt8v/paSaZEQQiCyFdaFi/sur2MurAstP34xsRA==
   dependencies:
     "@minna-ui/browserslist-config" "^0.34.0"
     "@minna-ui/eslint-config" "^0.34.0"
@@ -5035,6 +5036,13 @@ rollup-plugin-commonjs@^10.1.0:
     magic-string "^0.25.2"
     resolve "^1.11.0"
     rollup-pluginutils "^2.8.1"
+
+rollup-plugin-json@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/rollup-plugin-json/-/rollup-plugin-json-4.0.0.tgz#a18da0a4b30bf5ca1ee76ddb1422afbb84ae2b9e"
+  integrity sha512-hgb8N7Cgfw5SZAkb3jf0QXii6QX/FOkiIq2M7BAQIEydjHvTyxXHQiIzZaTFgx1GK0cRCHOCBHIyEkkLdWKxow==
+  dependencies:
+    rollup-pluginutils "^2.5.0"
 
 rollup-plugin-node-resolve@^5.2.0:
   version "5.2.0"
