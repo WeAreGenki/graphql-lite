@@ -14,21 +14,22 @@ aliases:
 
 version: 2
 jobs:
-  build-node-11:
+  build-node-12:
     docker:
-      - image: circleci/node:11
+      - image: circleci/node:12
     working_directory: ~/repo
     steps:
       - checkout
       - restore-cache: *restore-cache
       - run: yarn install --frozen-lockfile
       - save-cache: *save-cache
+      - run: yarn build
       - run: yarn run lint
       - run: yarn run test-ci
-      - run: yarn codecov
+      - run: cat ./test/coverage/lcov.info | yarn codacy-coverage
       - store_artifacts:
           path: test/coverage
-          prefix: coverage
+          destination: coverage
 
   build-node-10:
     docker:
@@ -39,11 +40,12 @@ jobs:
       - restore-cache: *restore-cache
       - run: yarn install --frozen-lockfile
       - save-cache: *save-cache
+      - run: yarn build
       - run: yarn run test-ci
 
 workflows:
   version: 2
   build:
     jobs:
-      - build-node-11
+      - build-node-12
       - build-node-10
