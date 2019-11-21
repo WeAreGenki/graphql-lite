@@ -34,7 +34,7 @@
     "graphql": "^14.0.0"
   },
   "devDependencies": {
-    "@minna-ui/build-lib": "0.34.1",
+    "@minna-ui/build-lib": "0.35.0",
     "@wearegenki/renovate-config": "1.0.0",
     "codacy-coverage": "3.4.0",
     "eslint": "6.5.0",
