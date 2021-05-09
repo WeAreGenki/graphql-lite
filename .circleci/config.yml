@@ -16,7 +16,7 @@ version: 2
 jobs:
   build-node-12:
     docker:
-      - image: circleci/node:12
+      - image: circleci/node:15
     working_directory: ~/repo
     steps:
       - checkout
@@ -33,7 +33,7 @@ jobs:
 
   build-node-10:
     docker:
-      - image: circleci/node:10
+      - image: circleci/node:15
     working_directory: ~/repo
     steps:
       - checkout
