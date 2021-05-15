@@ -31,7 +31,7 @@
     "test-ci": "jest --coverage --runInBand --ci"
   },
   "peerDependencies": {
-    "graphql": "^14.0.0"
+    "graphql": "^14.0.0 || ^15.0.0"
   },
   "devDependencies": {
     "@minna-ui/build-lib": "0.35.0",
